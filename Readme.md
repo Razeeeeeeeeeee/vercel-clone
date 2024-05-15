@@ -15,9 +15,10 @@ This Project contains following services and folders:
 1. Setup your S3 object store
 2.  Setup `.env.local` variables in each of the modules which contains the S3 access keys and Port numbers  
 3. Ensure that Docker daemon is running in the device.
-4. Run `npm install` in all the 3 services 
-5. Run `node index.js` in `vercel`,`vercel_deployment` and `request_handler`
-6. Finally deploy the frontend and you are good to go! 
+4. Run `npm install` in all the 3 services
+5. Build the typescript files using `tsc -b` in each of the sub-folders. 
+6. Run `node index.js` in `vercel`,`vercel_deployment` and `request_handler`
+7. Finally deploy the frontend and you are good to go! 
 
 At this point following services would be up and running:
 
